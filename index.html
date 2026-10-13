@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neeraj Vishwakarma | Front-End Developer</title>
+    <link rel="stylesheet" href="style.css">
+
+<link rel="shortcut icon" href="./assets/backgraoundneeraj.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+<!-- font style -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <div class="main-container">
+        <!-- hesder section start -->
+        <header class="main-header">
+     <div class="leftSection">
+              <span class="spam-neeraj">Neeraj Vishwakarma</span>
+          <span id="element">  </span>
+        </div>
+            <div class="menu-area">
+                <input type="checkbox" id="menu-toggle" hidden>
+                <label for="menu-toggle" class="menu-icon">
+                    <i class="fa-solid fa-bars"></i></label>
+                <label for="menu-toggle" id="overlay"></label>
+
+                <button class="theme-toggle" type="button" aria-label="Switch to light mode">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+            
+            <nav>
+                <label for="menu-toggle" class="sidebar-close" aria-label="Close navigation">
+                    <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+                </label>
+                <a href="#home" style="--i:1">Home</a>
+                <a href="#about" style="--i:2">About</a>
+                <a href="#services" style="--i:3">Services</a>
+                <a href="#projects" style="--i:3">Projects</a>
+                <a href="#education" style="--i:3">Education</a>
+                <a href="#contact" style="--i:4">Contact</a>
+                <a class="nav-resume" href="assets/neerajvishwkarmaresume.pdf" style="--i:4">Resume <span aria-hidden="true">↗</span></a>
+            </nav>
+             </div>
+        </header>
+        <!-- hesder section END -->
+         <main>
+            <!-- Home Section -->
+    <section class="home" id="home">
+
+        <div class="home-content">
+            <div class="welcome">
+                <span class="dot"></span>
+                AVAILABLE FOR OPPORTUNITIES
+            </div>
+
+            <p class="intro">HELLO, I'M NEERAJ VISHWAKARMA</p>
+
+            <h1>
+                I Build Digital<br>
+                <span>Experiences.</span>
+            </h1>
+
+            <p class="description">
+                I'm a UI Designer and React Developer passionate about
+                creating modern, responsive and user-friendly websites
+                that bring ideas to life.
+            </p>
+
+            <div class="home-buttons">
+                <a href="#projects" class="primary-btn">
+                    Explore My Work <span>↗</span>
+                </a>
+
+                <a href="#contact" class="secondary-btn">
+                    Contact Me
+                </a>
+            </div>
+
+            <div class="social-section">
+                <span>FOLLOW ME</span>
+                <a href="https://www.linkedin.com/in/neeraj-vishwkarma-936119343/?isSelfProfile=true" target="_blank" rel="noreferrer">LinkdIn ↗</a>
+                <a href="https://github.com/Neerajvishwakarma9569" target="_blank" rel="noreferrer">GitHub ↗</a>
+                <a href="https://www.instagram.com/neerajvishwkarma86/" target="_blank" rel="noreferrer">Instagram ↗</a>
+            </div>
+        </div>
+
+        <!-- Right Side Visual -->
+        <div class="home-visual">
+            <div class="circle circle-one"></div>
+            <div class="circle circle-two"></div>
+
+            <div class="code-card">
+                <div class="code-header">
+                    <span></span><span></span><span></span>
+                    <p>developer.jsx</p>
+                </div>
+
+                <div class="code-body">
+                    <p><span class="purple">const</span> developer = {</p>
+                    <p class="indent">name: <span class="green">'Neeraj Vishwakarma'</span>,</p>
+                    <p class="indent">role: <span class="green">'React Developer'</span>,</p>
+                    <p class="indent">creative: <span class="orange">true</span>,</p>
+                    <p class="indent">skills: [</p>
+                    <p class="indent2"><span class="green">'HTML'</span>,</p>
+                    <p class="indent2"><span class="green">'CSS'</span>,</p>
+                    <p class="indent2"><span class="green">'React'</span></p>
+                    <p class="indent">]</p>
+                    <p>};</p>
+                    <p class="code-end">// Let's build something great!</p>
+                </div>
+            </div>
+
+            <div class="floating-card card-top">
+                <span class="gold-icon">✦</span>
+                <div>
+                    <h4>Creative Mind</h4>
+                    <p>Ideas into reality</p>
+                </div>
+            </div>
+
+            <div class="floating-card card-bottom">
+                <span class="react-icon">⚛</span>
+                <div>
+                    <h4>React Developer</h4>
+                    <p>Building modern UI</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="vertical-text">DESIGN · DEVELOP · CREATE</div>
+    </section>
+
+         </main>
+    </div>
+   <!-- about section -->
+
+   <section class="about-section" id="about">
+    <div class="about-container">
+
+        <!-- Left Side -->
+        <div class="about-image" data-aos="fade-up-right" data-aos-duration="3000">
+            <div class="image-frame">
+                <img src="assets/backgraoundneeraj.png" alt="My Profile">
+            </div>
+            <div class="experience-card">
+                <h2>Creative</h2>
+                <p>Developer & Designer</p>
+            </div>
+        </div>
+
+        <!-- Right Side -->
+        <div class="about-content">
+            <span class="section-tag">ABOUT ME</span>
+
+            <h1>
+                Turning Ideas Into
+                <span>Digital Experiences.</span>
+            </h1>
+
+            <p class="about-description">
+                Hi, I'm a passionate UI Designer and React Developer.
+                I enjoy creating modern, responsive and user-friendly
+                websites. My goal is to build beautiful digital
+                experiences with clean code and creative design.
+            </p>
+
+            <div class="skills">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+                <span>React JS</span>
+                <span>Responsive UI</span>
+            </div>
+
+            <div class="about-stats">
+                <div class="stat-item">
+                    <strong data-count="3" data-suffix="+">0</strong>
+                    <span>Years Learning</span>
+                </div>
+                <div class="stat-item">
+                    <strong data-count="10" data-suffix="+">0</strong>
+                    <span>Projects Built</span>
+                </div>
+                <div class="stat-item">
+                    <strong data-count="100" data-suffix="%">0</strong>
+                    <span>Commitment</span>
+                </div>
+            </div>
+
+            <div class="about-details">
+                <div>
+                    <h3>01</h3>
+                    <p>Creative Design</p>
+                </div>
+                <div>
+                    <h3>02</h3>
+                    <p>Clean Code</p>
+                </div>
+                <div>
+                    <h3>03</h3>
+                    <p>Modern UI</p>
+                </div>
+            </div>
+
+            <a href="#contact" class="about-btn">Let's Connect ↗</a>
+        </div>
+
+    </div>
+</section>
+
+   <!-- about section  end-->
+
+   <section class="services-section" id="services">
+    <div class="services-container">
+        <div class="section-heading">
+            <span class="section-tag">WHAT I DO</span>
+            <h2>Services <span>for modern brands</span></h2>
+        </div>
+
+        <div class="services-grid">
+            <article class="service-card">
+                <div class="service-icon"><i class="fa-solid fa-palette"></i></div>
+                <h3>UI/UX Design</h3>
+                <p>Modern interface design that feels premium, clear, and easy for users to navigate.</p>
+            </article>
+
+            <article class="service-card">
+                <div class="service-icon"><i class="fa-solid fa-code"></i></div>
+                <h3>Frontend Development</h3>
+                <p>Responsive websites and landing pages built with clean code and smooth interactions.</p>
+            </article>
+
+            <article class="service-card">
+                <div class="service-icon"><i class="fa-solid fa-rocket"></i></div>
+                <h3>Product Launch</h3>
+                <p>Design-to-code execution that helps turn ideas into polished digital experiences quickly.</p>
+            </article>
+        </div>
+    </div>
+</section>
+
+   <!-- section start -->
+    <section class="projects-section" id="projects">
+    <div class="projects-container">
+        <div class="projects-heading">
+            <span class="projects-label">MY WORK</span>
+            <h2>Featured <span>Projects</span></h2>
+            <p>Some projects I've worked on recently.</p>
+        </div>
+
+        <div class="project-filters" aria-label="Project filters">
+            <button class="filter-btn active" type="button" data-filter="all">All</button>
+            <button class="filter-btn" type="button" data-filter="frontend">Frontend</button>
+            <button class="filter-btn" type="button" data-filter="design">Design</button>
+            <button class="filter-btn" type="button" data-filter="dashboard">Dashboard</button>
+        </div>
+
+        <div class="projects-grid">
+            <article class="project-card" data-category="frontend">
+                <a class="project-image" href="#" aria-label="View Portfolio Website project">
+                    <img src="assets/erp.png" alt="Portfolio website preview">
+                    <span class="project-number">01</span>
+                </a>
+                <div class="project-info">
+                    <div>
+                        <h3>School Management System</h3>
+                        <p>Developed a modern and user-friendly School Management System Dashboard to manage students, teachers, attendance, fees, and academic records efficiently. The dashboard provides organized data visualization, easy navigation, and real-time information access.</p>
+                    </div>
+                    <a class="project-arrow" href="#" aria-label="View Portfolio Website project">↗</a>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>React Js</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="project-card" data-category="design">
+                <a class="project-image" href="#" aria-label="View E-commerce UI project">
+                    <img src="assets/flowera.png" alt="E-commerce interface preview">
+                    <span class="project-number">02</span>
+                </a>
+                <div class="project-info">
+                    <div>
+                        <h3>Flower Shop Website</h3>
+                        <p>Developed a beautiful and responsive flower shop website featuring attractive flower collections, product details, and a user-friendly interface to provide customers with a smooth and enjoyable online shopping experience.</p>
+                    </div>
+                    <a class="project-arrow" href="#" aria-label="View E-commerce UI project">↗</a>
+                    <div class="project-tags">
+                        <span>React</span>
+                        <span>CSS</span>
+                        <span>UI Design</span>
+                        <span>React Js</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="project-card" data-category="dashboard">
+                <a class="project-image" href="#" aria-label="View Dashboard Design project">
+                    <img src="assets/projects/project3.webp" alt="Dashboard design preview">
+                    <span class="project-number">03</span>
+                </a>
+                <div class="project-info">
+                    <div>
+                        <h3>Dashboard Design</h3>
+                        <p>A simple dashboard for clear data insights.</p>
+                    </div>
+                    <a class="project-arrow" href="#" aria-label="View Dashboard Design project">↗</a>
+                    <div class="project-tags">
+                        <span>JavaScript</span>
+                        <span>Responsive</span>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+        <a class="all-projects-link" href="#">
+            More projects <span>↗</span>
+        </a>
+    </div>
+</section>
+
+
+
+
+   <!-- section start end -->
+    <!-- Eduction Page Start -->
+
+    <section class="education-section" id="education" >
+    <div class="education-container" >
+        <div class="education-heading">
+            <span class="education-label">MY JOURNEY</span>
+            <h2>Education &amp; <span>Learning</span></h2>
+            <p>My academic background and the skills I’ve developed along the way.</p>
+        </div>
+
+        <div class="education-list">
+            <article class="education-card">
+                <div class="education-timeline">
+                    <span class="education-dot"></span>
+                    <span class="education-line"></span>
+                </div>
+
+                <div class="education-content" data-aos="fade-left" data-aos-duration="2000">
+                    <span class="education-year">2023 – 2026</span>
+                    <h3>Polytechnic Diploma</h3>
+                    <h4>Government Polytechnic Lucknow</h4>
+                    <p>
+                        I am pursuing a Polytechnic Diploma from Government Polytechnic Lucknow. I am learning programming, web development, database management, and software development. I have practical knowledge of HTML, CSS, JavaScript, React.js,  and MySQL. I am eager to enhance my technical skills, gain industry experience, and contribute to a professional organization through continuous learning and hard work.
+                    </p>
+                    <div class="education-tags">
+                        <span>Web Development</span>
+                        <span>Programming</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="education-card">
+                <div class="education-timeline">
+                    <span class="education-dot"></span>
+                    <span class="education-line"></span>
+                </div>
+
+                <div class="education-content" data-aos="fade-left" data-aos-duration="2500">
+                    <span class="education-year">2020 – 2021</span>
+                    <h3>Higher Secondary Education</h3>
+                    <h4>Ma Geeta Maheshwari Inter College</h4>
+                    <p>
+                        Completed Class 12 with a focus on building a strong academic foundation and developing problem-solving, communication, and analytical skills. Gained basic knowledge of core subjects and am eager to apply my knowledge to further education and professional growth.
+                    </p>
+                    <div class="education-tags">
+                        <span>PCM</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="education-card">
+                <div class="education-timeline">
+                    <span class="education-dot"></span>
+                </div>
+
+                <div class="education-content" data-aos="fade-left" data-aos-duration="3000">
+                    <span class="education-year">2018 – 2019</span>
+                    <h3>Secondary Education</h3>
+                    <p>
+                       Completed High School (Class 10) with a focus on foundational subjects, including Mathematics, Science, and English. Developed basic problem-solving, communication, and analytical skills while building a strong academic foundation for further education.
+                    </p>
+                    <div class="education-tags">
+                        <span>School</span>
+                        <span>Foundation</span>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+    <!-- Eduction Page end -->
+
+   <!-- contact page start -->
+    <section class="contact-section" id="contact">
+    <div class="contact-container">
+        <div class="contact-heading">
+            <span class="contact-label">GET IN TOUCH</span>
+            <h2>Let’s work <span>together.</span></h2>
+            <p>
+                Have a project in mind or want to say hello?
+                Send me a message and I’ll get back to you.
+            </p>
+        </div>
+
+        <div class="contact-content">
+            <div class="contact-info">
+                <h3>Contact information</h3>
+                <p class="contact-info-description">
+                    I’m open to discussing new projects, creative ideas,
+                    or opportunities to be part of your vision.
+                </p>
+
+                <a class="contact-detail" href="mailto:vishwkarmaneeraj63@gmail.com">
+                    <span class="contact-icon">✉</span>
+                    <span>
+                        <small>Email</small>
+                        vishwkarmaneeraj63@gmail.com
+                    </span>
+                </a>
+
+                <a class="contact-detail" href="https://www.linkedin.com/in/neeraj-vishwkarma-936119343/?isSelfProfile=true" target="_blank" rel="noreferrer">
+                    <span class="contact-icon">in</span>
+                    <span>
+                        <small>LinkedIn</small>
+                        Connect with me
+                    </span>
+                </a>
+
+                <div class="contact-availability">
+                    <span class="availability-dot"></span>
+                    Available for opportunities
+                </div>
+            </div>
+
+            <form class="contact-form" action="#" method="post" data-aos="fade-left" data-aos-duration="2000">
+                <div class="form-row">
+                    <label>
+                        Your name
+                        <input type="text" name="name" placeholder="Enter your name" required>
+                    </label>
+
+                    <label>
+                        Your email
+                        <input type="email" name="email" placeholder="you@example.com" required>
+                    </label>
+                </div>
+
+                <label>
+                    Subject
+                    <input type="text" name="subject" placeholder="What’s this about?">
+                </label>
+
+                <label>
+                    Your message
+                    <textarea name="message" rows="5" placeholder="Tell me a little about your project..." required></textarea>
+                </label>
+
+                <button type="submit">
+                    Send message <span>↗</span>
+                </button>
+            </form>
+        </div>
+    </div>
+</section>
+   <!-- contact page end -->
+
+
+
+    <!-- java link code -->
+     <script src="script.js" defer></script>
+     <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+        <script>
+          AOS.init();
+        </script>
+
+
+
+</body>
+</html>
